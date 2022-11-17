@@ -368,10 +368,12 @@
   display: flex;
   justify-content: center;
   gap: 50px;
+  
 }
 
 .info-list {
   gap: 20px;
+  
   width: 400px;
   display: flex;
   align-items: center;
@@ -737,8 +739,13 @@
     gap: 20px;
   }
 
+  .logo h1 {
+    font-size: 50px;
+  }
+
   .navbar-links ul li a {
-   padding: 10px;
+    font-size: 20px;
+    padding: 10px;
   }
 
   .nav-link {
@@ -800,6 +807,7 @@
   .products-images {
     display: flex;
     width: 50%;
+    padding: 20px;
   }
 
   .products-images img {
@@ -825,11 +833,20 @@
 
   .info-list {
     gap: 20px;
+    padding: 20px;
     width: 400px;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     color: #003742;
+  }
+
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 
   .decor {
@@ -846,5 +863,6 @@
   
   .decor img {
     width: 40%;
+    padding: 10px;
   }
 }
