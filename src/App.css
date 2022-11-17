@@ -737,6 +737,10 @@
     gap: 20px;
   }
 
+  .navbar-links ul {
+    gap: 25px;
+  }
+
   .nav-link {
     width: 100%;
     display: flex;
