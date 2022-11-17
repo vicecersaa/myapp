@@ -624,7 +624,9 @@
   
   .myVideo video {
     width: 100%;
+    height: 300px;
     border: none;
+    margin-inline: auto;
   }
 
   .footer {
