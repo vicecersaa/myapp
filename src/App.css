@@ -737,8 +737,8 @@
     gap: 20px;
   }
 
-  .navbar-links ul {
-    gap: 25px;
+  .navbar-links ul li a {
+   padding: 10px;
   }
 
   .nav-link {
