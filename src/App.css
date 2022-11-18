@@ -873,7 +873,10 @@
     flex-direction: row;
   }
 
-  
+  .ecommerce-logo img {
+    width: 10%;
+    height: 10%;
+  }
 
   .title {
     margin: 0;
