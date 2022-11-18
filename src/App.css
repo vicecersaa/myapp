@@ -871,11 +871,10 @@
   .ecommerce-logo {
     display: flex;
     flex-direction: row;
+    width: 50%;
   }
 
-  .ecommerce-logo img {
-    width: 10%;
-  }
+ 
 
   .title {
     margin: 0;
