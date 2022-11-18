@@ -540,6 +540,49 @@
   border: 1px solid white;
 }
 
+
+
+
+
+.product-sect .products-img {
+  margin-top: 50px;
+ 
+}
+
+.shop-title {
+  width: 22%;
+  margin-inline: auto;
+  margin-left: 210px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-bottom: 2px solid #003742;
+}
+
+.shop-title h3 {
+  font-size: 35px;
+  color: #003742;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.shop-title p {
+  font-size: 16px;
+  font-family: 'Asap', sans-serif;
+}
+
+.pagination {
+  width: 80%;
+  margin-inline: auto;
+  margin-left: 210px;
+  display: flex;
+  margin-top: 80px;
+}
+
+.pagination a {
+  cursor: pointer;
+  margin-right: 15px;
+  font-family: 'Asap', sans-serif;
+}
+
 @media only screen and (max-width: 1800px) {
   .banner-section {
     background-image: url(./img/daun.jpg);
@@ -682,7 +725,7 @@
 }
 
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1000px) {
   .linking {
     display: none;
   }
@@ -866,5 +909,42 @@
   .decor img {
     width: 40%;
     padding: 10px;
+  }
+
+  .shop-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    width: 80%;
+    min-width: 330px;
+    margin-left: 20px;
+  }
+
+  .product-page {
+    width: 100%;
+  }
+
+  .product-page .product-img {
+    width: 50%;
+    margin-inline: auto;
+    min-width: 768px;
+  }
+  .product-sect { 
+    width: 80%;
+  }
+
+  .product-sect .products-images img {
+    width: 100%;
+  }
+
+  .pagination {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .pagination a {
+    font-size: 25px;
   }
 }
