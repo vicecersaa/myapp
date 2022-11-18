@@ -660,7 +660,7 @@
 }
 
 .ecommerce-logo img {
-  width: 10%;
+  max-width: 40px;
   margin-right: 10px;
 }
 
@@ -871,8 +871,9 @@
   .ecommerce-logo {
     display: flex;
     flex-direction: row;
-    width: 50%;
   }
+
+  
 
   .title {
     margin: 0;
