@@ -883,6 +883,10 @@
     width: 20%;
     min-width: 768px;
   }
+
+  .product-details-smallimg {
+    display: none;
+  }
 }
 
 
