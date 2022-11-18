@@ -4,7 +4,8 @@ import { Home } from './pages/Home';
 import {Product} from './pages/Product'
 import {Contact} from './pages/Contact'
 import {About} from './pages/About'
-
+import {Swanston} from './pages/Swanston'
+import {Brighton} from './pages/Brighton'
 function App() {
   return (
      <div className='App'>
@@ -14,6 +15,8 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/swanston" element={<Swanston />} />
+          <Route path="/brighton" element={<Brighton />} />
         </Routes>
       </Router>
       </div>

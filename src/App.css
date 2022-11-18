@@ -551,8 +551,8 @@
 
 .shop-title {
   width: 22%;
-  margin-inline: auto;
-  margin-left: 210px;
+  
+  margin-left: 300px;
   padding-bottom: 10px;
   padding-top: 20px;
   border-bottom: 2px solid #003742;
@@ -572,7 +572,7 @@
 .pagination {
   width: 80%;
   margin-inline: auto;
-  margin-left: 210px;
+  margin-left: 300px;
   display: flex;
   margin-top: 80px;
 }
@@ -582,6 +582,100 @@
   margin-right: 15px;
   font-family: 'Asap', sans-serif;
 }
+
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 70%;
+  margin-inline: auto;
+  margin-top: 150px;
+}
+
+.product-details-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.product-details-img img{
+  width: 60%;
+}
+
+.product-details-smallimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-details-smallimg img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+
+.product-specs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.product-specs h4 {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  color: #808080;
+  margin-bottom: 40px;
+}
+
+.product-specs h3 {
+  font-size: 35px;
+  font-family: 'El Messiri', sans-serif;
+  width: 100%;
+  border-bottom: 1px solid #003742;
+  margin-bottom: 50px;
+}
+
+.product-specs h1 {
+  color: black;
+  font-size: 23px;
+  font-family: 'Asap', sans-serif;
+  margin-bottom: 20px;
+}
+
+.product-specs p {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+}
+
+.ecommerce-logo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  width: 50%;
+}
+
+.ecommerce-logo img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.related-product {
+  margin-top: 150px;
+}
+
+.products-img {
+  padding: 0;
+}
+.products-images {
+  padding: 0;
+}
+
+
 
 @media only screen and (max-width: 1800px) {
   .banner-section {
@@ -599,6 +693,14 @@
     min-width: 768px;
     padding-left: 0;
     margin-top: 100px;
+    min-width: 768px;
+  }
+
+  .Navbar {
+    min-width: 768px;
+  }
+
+  .Header {
     min-width: 768px;
   }
   
@@ -722,6 +824,64 @@
     width: 100%;
     padding: 20px;
   }
+
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 768px;
+    margin-top: 50px;
+  }
+
+  .product-details-img {
+    margin: 0;
+    width: 100%;
+    min-width: 768px;
+    margin-bottom: 50px;
+  }
+
+  .product-details-smallimg {
+    min-width: 768px;
+  }
+
+  .product-specs {
+    padding: 20px;
+    min-width: 768px;
+  }
+
+  .product-specs h4 {
+    font-size: 25px;
+  }
+
+  .product-specs h1 {
+    font-size: 32px;
+  }
+
+  .product-specs p {
+    font-size: 30px;
+    text-align: justify;
+  }
+
+  .product-specs h3 {
+    font-size: 45px;
+  }
+
+  .ecommerce-logo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ecommerce-logo img {
+    width: 60px;
+  }
+
+  .title {
+    margin: 0;
+    width: 20%;
+    min-width: 768px;
+  }
 }
 
 
@@ -734,6 +894,14 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-width: 768px;
+  }
+
+  .Navbar {
+    min-width: 768px;
+    
+  }
+  .Header {
     min-width: 768px;
   }
 
@@ -833,6 +1001,7 @@
     justify-content: center;
     align-items: center;
     min-width: 768px;
+    width: 100%;
   }
 
   .products-img {
@@ -842,7 +1011,6 @@
     justify-content: center;
     gap: 40px;
     width: 100%;
-   
   }
 
   .shop-products {
@@ -851,7 +1019,7 @@
 
   .products-images {
     display: flex;
-    width: 50%;
+    width: 100%;
     padding: 20px;
   }
 
@@ -916,7 +1084,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0;
+  
     width: 80%;
     min-width: 330px;
     margin-left: 20px;
@@ -931,6 +1099,7 @@
     margin-inline: auto;
     min-width: 768px;
   }
+
   .product-sect { 
     width: 80%;
   }
@@ -946,5 +1115,16 @@
 
   .pagination a {
     font-size: 25px;
+  }
+
+  
+  .product-details-img {
+    width: 100%;
+    min-width: 768px;
+  }
+
+  .footer {
+    width: 100%;
+    min-width: 768px;
   }
 }

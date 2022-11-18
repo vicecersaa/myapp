@@ -1,6 +1,6 @@
 export const ShopSection = (props) => {
   return (
-    <div className="shop-section">
+  <div className="shop-section">
       
     <div className="shop-products">
       <div className='products-img'>
@@ -23,6 +23,6 @@ export const ShopSection = (props) => {
       </div>
     </div>
     
-    </div>
+  </div>
   )
 }
