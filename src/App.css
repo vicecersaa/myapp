@@ -273,6 +273,12 @@
   width: 20%;
 }
 
+.products-images a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
 .products-images img {
   width: 100%;
 }
@@ -1028,12 +1034,15 @@
     padding: 20px;
   }
 
+ 
+
   .products-images img {
     width: 75%;
   }
 
   .products-images p {
     font-size: 25px;
+    
   }
 
 

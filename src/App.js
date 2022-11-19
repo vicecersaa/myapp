@@ -6,6 +6,13 @@ import {Contact} from './pages/Contact'
 import {About} from './pages/About'
 import {Swanston} from './pages/Swanston'
 import {Brighton} from './pages/Brighton'
+import {GlenIris} from './pages/GlenIris'
+import {Wellington} from './pages/Wellington'
+import {Morrison} from './pages/Morrison';
+import {MorningtonPocket} from './pages/MorningtonPocket'
+import { MorningtonBonnel } from './pages/MorningtonBonnel';
+import {Sofa} from './pages/Sofa';
+
 function App() {
   return (
      <div className='App'>
@@ -17,6 +24,12 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/swanston" element={<Swanston />} />
           <Route path="/brighton" element={<Brighton />} />
+          <Route path="/gleniris" element={<GlenIris />} />
+          <Route path="/wellington" element={<Wellington />} />
+          <Route path="/morrison" element={<Morrison />} />   
+          <Route path="/morningtonpocket" element={<MorningtonPocket />} />   
+          <Route path="/morningtonbonnel" element={<MorningtonBonnel />} />   
+          <Route path="/sofa" element={<Sofa />} />   
         </Routes>
       </Router>
       </div>

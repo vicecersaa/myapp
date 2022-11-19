@@ -16,26 +16,27 @@ import Morrison from '../img/MorrisonFull.png'
 import Sofa from '../img/Tampak Depan.png'
 import MorningtonBonnel from '../img/MorningtonBonnelFull.png'
 import MorningtonPocket from '../img/MorningtonPocketFull.png'
-import BrightonFull from '../img/BrightonFull.png'
-import BrightonTanpa from '../img/BrightonTanpaSandaran.png'
-import ForlandBrighton from '../img/ForlandBrighton.png'
-export const Brighton = () => {
+import GlenIrisFull from '../img/GlenIrisFull.png'
+import GlenIrisTanpa from '../img/GlenIrisTanpaSandaran.png'
+import ForlandGlenIris from '../img/ForlandGlenIris.png'
+
+export const GlenIris = () => {
   return (
     <>
     <Header />
     <Navbar />
     <ProductDetailsProps 
-      img1={BrightonFull}
-      img2={BrightonFull}
-      img3={BrightonTanpa}
-      img4={ForlandBrighton}
-      smallimg1={BrightonFull}
-      smallimg2={BrightonTanpa}
-      smallimg3={ForlandBrighton}
+      img1={GlenIrisFull}
+      img2={GlenIrisFull}
+      img3={GlenIrisTanpa}
+      img4={ForlandGlenIris}
+      smallimg1={GlenIrisFull}
+      smallimg2={GlenIrisTanpa}
+      smallimg3={ForlandGlenIris}
       tag="Home / Springbed"
-      title="Forland Brighton"
+      title="Forland Glen Iris"
       details="Product Details"
-      text="Forland Springbed jenis Brighton merupakan kasur yang menggunakan full busa rebounded density 50 tanpa menggunakan per dan tergolong memiliki tingkat kekerasan medium firm."
+      text="Forland Springbed jenis Glen Iris merupakan springbed berjenis plushtop yang menggunakan bahan dasar per pocket yang dilapisi lagi oleh busa rebounded. Dilengkapi dengan tekonologi busa encasement yang mampu menopang kasur dengan jauh lebih kokoh."
       logoimg1={Bukalapak}
       logoimg2={Shopee}
       logoimg3={Tokopedia}

@@ -35,7 +35,11 @@ export const Home = () => {
       <Title
         tag="See Whats New"
       />
-      <ShopSection 
+      <ShopSection
+        link1="/wellington"
+        link2="/swanston"
+        link3="/brighton"
+        link4="/gleniris"
         gambar1={WellingtonFull}
         nameOne="Forland Wellington"
         gambar2={SwanstonFull}
@@ -54,6 +58,10 @@ export const Home = () => {
       />
 
       <ShopSection 
+        link1="/morrison"
+        link2="/morningtonpocket"
+        link3="/morningtonbonnel"
+        link4="/sofa"
         tag="Our Top Products"
         gambar1={Morrison}
         nameOne="Forland Morrison"

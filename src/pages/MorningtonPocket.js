@@ -12,30 +12,30 @@ import AkuLaku from '../img/Akulaku.png'
 import Lazada from '../img/Lazada.png'
 import BliBli from '../img/Blibli.png'
 import JDID from '../img/JD ID.png'
-import Morrison from '../img/MorrisonFull.png'
 import Sofa from '../img/Tampak Depan.png'
+import MorrisonFull from '../img/MorrisonFull.png'
 import MorningtonBonnel from '../img/MorningtonBonnelFull.png'
-import MorningtonPocket from '../img/MorningtonPocketFull.png'
-import BrightonFull from '../img/BrightonFull.png'
-import BrightonTanpa from '../img/BrightonTanpaSandaran.png'
-import ForlandBrighton from '../img/ForlandBrighton.png'
-export const Brighton = () => {
+import WellingtonFull from '../img/WellingtonFull.png'
+import MorningtonPocketFull from '../img/MorningtonPocketFull.png'
+import ForlandMornintonPocket from '../img/ForlandMorningtonPocket.png'
+
+export const MorningtonPocket = () => {
   return (
     <>
     <Header />
     <Navbar />
     <ProductDetailsProps 
-      img1={BrightonFull}
-      img2={BrightonFull}
-      img3={BrightonTanpa}
-      img4={ForlandBrighton}
-      smallimg1={BrightonFull}
-      smallimg2={BrightonTanpa}
-      smallimg3={ForlandBrighton}
+      img1={MorningtonPocketFull}
+      img2={MorningtonPocketFull}
+      img3={ForlandMornintonPocket}
+      img4={ForlandMornintonPocket}
+      smallimg1={MorningtonPocketFull}
+      smallimg2={ForlandMornintonPocket}
+      smallimg3={ForlandMornintonPocket}
       tag="Home / Springbed"
-      title="Forland Brighton"
+      title="Forland Mornington Pocket"
       details="Product Details"
-      text="Forland Springbed jenis Brighton merupakan kasur yang menggunakan full busa rebounded density 50 tanpa menggunakan per dan tergolong memiliki tingkat kekerasan medium firm."
+      text="Forland Springbed Jenis Mornington Pocket 2in1 Sorong merupakan springbed sorong berjenis plushtop yang menggunakan bahan dasar per pocket dilapisi lagi dengan busa rebounded untuk kasur atas. Untuk produk tertera berupa fullset yang sudah termasuk kasur atas, kasur sorong dan sandaran."
       logoimg1={Bukalapak}
       logoimg2={Shopee}
       logoimg3={Tokopedia}
@@ -50,17 +50,17 @@ export const Brighton = () => {
     />
     </div>
     <ShopSection 
-      tag="Our Top Products"
-      link1="/morrison"
-      gambar1={Morrison}
-      nameOne="Forland Morrison"
-      link2="/morningtonpocket"
-      gambar2={MorningtonPocket}
-      nameTwo="Forland Mornington Pocket"
+      link1="/wellington"
+      link2="/morrison"
       link3="/morningtonbonnel"
+      link4="/sofa"
+      tag="Our Top Products"
+      gambar1={WellingtonFull}
+      nameOne="Forland Wellington"
+      gambar2={MorrisonFull}
+      nameTwo="Forland Morrison"
       gambar3={MorningtonBonnel}
       nameThree="Forland Mornington Bonnel"
-      link4="/sofa"
       gambar4={Sofa}
       nameFour="Forland Sofa"
     />

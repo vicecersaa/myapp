@@ -16,26 +16,27 @@ import Morrison from '../img/MorrisonFull.png'
 import Sofa from '../img/Tampak Depan.png'
 import MorningtonBonnel from '../img/MorningtonBonnelFull.png'
 import MorningtonPocket from '../img/MorningtonPocketFull.png'
-import BrightonFull from '../img/BrightonFull.png'
-import BrightonTanpa from '../img/BrightonTanpaSandaran.png'
-import ForlandBrighton from '../img/ForlandBrighton.png'
-export const Brighton = () => {
+import WellingtonFull from '../img/WellingtonFull.png'
+import WellingtonTanpa from '../img/WellingtonTanpaSandaran.png'
+import ForlandWellington from '../img/ForlandWellington.png'
+
+export const Wellington = () => {
   return (
     <>
     <Header />
     <Navbar />
     <ProductDetailsProps 
-      img1={BrightonFull}
-      img2={BrightonFull}
-      img3={BrightonTanpa}
-      img4={ForlandBrighton}
-      smallimg1={BrightonFull}
-      smallimg2={BrightonTanpa}
-      smallimg3={ForlandBrighton}
+      img1={WellingtonFull}
+      img2={WellingtonFull}
+      img3={WellingtonTanpa}
+      img4={ForlandWellington}
+      smallimg1={WellingtonFull}
+      smallimg2={WellingtonTanpa}
+      smallimg3={ForlandWellington}
       tag="Home / Springbed"
-      title="Forland Brighton"
+      title="Forland Wellington"
       details="Product Details"
-      text="Forland Springbed jenis Brighton merupakan kasur yang menggunakan full busa rebounded density 50 tanpa menggunakan per dan tergolong memiliki tingkat kekerasan medium firm."
+      text="Forland Springbed jenis Wellington merupakan springbed berjenis plushtop yang menggunakan bahan dasar per bonnel dengan ketebalan 6 ulir yang dilapisi lagi oleh busa rebounded."
       logoimg1={Bukalapak}
       logoimg2={Shopee}
       logoimg3={Tokopedia}

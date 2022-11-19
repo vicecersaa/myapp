@@ -53,14 +53,18 @@ export const Swanston = () => {
       tag="Related Products"
     />
     </div>
-    <ShopSection 
+    <ShopSection
       tag="Our Top Products"
+      link1="/morrison"
       gambar1={Morrison}
       nameOne="Forland Morrison"
+      link2="/morningtonpocket"
       gambar2={MorningtonPocket}
       nameTwo="Forland Mornington Pocket"
+      link3="/morningtonbonnel"
       gambar3={MorningtonBonnel}
       nameThree="Forland Mornington Bonnel"
+      link4="/sofa"
       gambar4={Sofa}
       nameFour="Forland Sofa"
     />
