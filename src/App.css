@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 
@@ -182,6 +183,16 @@
   width: 20%;
   max-width: 368px;
   height: 64px;
+  border: 2px solid transparent;
+}
+
+.beds-products:hover {
+  border: 2px solid black
+}
+
+.beds-products a {
+  text-decoration: none;
+  color: black;
 }
 
 .products {
@@ -406,13 +417,20 @@
   justify-content: center;
   gap: 10px;
   width: 100%;
+  height: auto;
   margin-bottom: 10px;
-  
 }
 
 .decor img {
   width: 20%;
+  display: block;
 }
+
+.decor img:hover {
+  opacity: .8;
+}
+
+
 
 .footer {
   display: flex;
@@ -681,6 +699,69 @@
   padding: 0;
 }
 
+.contact-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 50px;
+  height: 300px;
+  max-width: 90%;
+  background-color: #dddfe5;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.contacts-pages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+}
+
+.contact img {
+  width: 15%;
+}
+
+.contact h3 {
+  font-size: 35px;
+  font-family: 'El Messiri', sans-serif;
+  
+}
+
+.contact span {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 
 
 @media only screen and (max-width: 1800px) {
@@ -700,6 +781,25 @@
     padding-left: 0;
     margin-top: 100px;
     min-width: 768px;
+  }
+  
+  .contacts-pages {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+  }
+
+  .contact-sect {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contact img {
+    width: 10%;
+    min-width: 80px;
   }
 
   .Navbar {

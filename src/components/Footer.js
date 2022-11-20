@@ -38,11 +38,11 @@ export const Footer = () => {
       <div className='footer-links'>
         <div className='category-one'>
           <h4>SHOP</h4>
-            <a alt='Bed' href='/'>Bed & Mattresses</a>
-            <a alt='Sofas' href='/'>Sofas</a>
-            <a alt='Furniture' href='/'>Furniture</a>
-            <a alt='In The Box' href='/'>In The Box</a>
-            <a alt='Accessories' href='/'>Accessories</a>
+            <a alt='Bed' href='/product'>Bed & Mattresses</a>
+            <a alt='Sofas' href='/product'>Sofas</a>
+            <a alt='Furniture' href='/product'>Furniture</a>
+            <a alt='In The Box' href='/product'>In The Box</a>
+            <a alt='Accessories' href='/product'>Accessories</a>
           </div>
           <div className='category-one'>
           <h4>ABOUT</h4>

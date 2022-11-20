@@ -12,36 +12,43 @@ export const Springbed = () => {
   return (
     <div className='beds'>
       <Props 
+        link="/swanston"
         tag="BEST SELLER"
         name="Forland Swanston"
         img={SwanstonFull}
       />
       <Props 
+        link="/brighton"
         tag="BEST SELLER"
         name="Forland Brighton"
         img={BrightonFull}
       />
       <Props 
+        link="/gleniris"
         tag="BEST SELLER"
         name="Forland Glen Iris"
         img={GlenIrisFull}
       />
       <Props 
+        link="/wellington"
         tag="BEST SELLER"
         name="Forland Wellington"
         img={WellingtonFull}
       />
       <Props 
+        link="/morningtonbonnel"
         tag="BEST SELLER"
         name="Forland Mornington Bonnel"
         img={MorningtonBonnelFull}
       />
       <Props 
+        link="/morningtonpocket"
         tag="BEST SELLER"
         name="Forland Mornington Pocket"
         img={MorningtonPocketFull}
       />
       <Props 
+        link="/morrison"
         tag="BEST SELLER"
         name="Forland Morrison"
         img={MorrisonFull}

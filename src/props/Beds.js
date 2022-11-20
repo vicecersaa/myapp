@@ -11,36 +11,43 @@ export const Beds = () => {
   return (
     <div className="beds">
       <Props
+        link="/swanston"
         tag="BEST SELLER"
         name="Forland Swanston"
         img={swanston}
       />
       <Props
+        link="/brighton"
         tag="BEST SELLER"
         name="Forland Brighton"
         img={brighton}
       />
       <Props
+        link="/gleniris"
         tag="BEST SELLER"
         name="Forland Glen Iris"
         img={GlenIris}
       />
       <Props
+        link="/wellington"
         tag="BEST SELLER"
         name="Forland Wellington"
         img={Wellington}
       />
       <Props
+        link="/morningtonbonnel"
         tag="BEST SELLER"
         name="Forland Mornington Bonnel"
         img={MorningtonBonnel}
       />
       <Props
+        link="/morningtonpocket"
         tag="BEST SELLER"
         name="Forland Mornington Pocket"
         img={MorningtonPocket}
       />
       <Props
+        link="/morrison"
         tag="BEST SELLER"
         name="Forland Morrison"
         img={Morrison}

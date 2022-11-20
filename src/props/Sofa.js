@@ -5,6 +5,7 @@ export const Sofa = () => {
   return (
     <div className='beds'>
       <Props 
+        link="/sofa"
         tag="BEST SELLER"
         name="Forland Sofa"
         img={ForlandSofa}
