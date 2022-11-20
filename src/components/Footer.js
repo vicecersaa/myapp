@@ -54,7 +54,7 @@ export const Footer = () => {
           <div className='category-one'>
           <h4>HELP</h4>
             <a alt='FAQS' href='/'>FAQS</a>
-            <a alt='Contact Us' href='/'>Contact Us</a>
+            <a alt='Contact Us' href='/contact'>Contact Us</a>
             <a alt='Warranty' href='/'>Warranty</a>
             <a alt='Delivery' href='/'>Delivery</a>
         </div>

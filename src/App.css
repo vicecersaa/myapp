@@ -1150,10 +1150,15 @@
     display: flex;
     padding: 20px;
     min-width: 768px;
-    
   }
+  .Linkings h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
   .Linkings a {
-    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
   .logo h1 {
