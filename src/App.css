@@ -1099,6 +1099,7 @@
   }
 
   .title {
+    margin-top: 50px;
     min-width: 768px;
   }
 
@@ -1113,6 +1114,7 @@
     align-items: center;
     min-width: 768px;
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .products-img {
