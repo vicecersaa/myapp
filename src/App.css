@@ -1030,9 +1030,10 @@
   }
 
   .title {
-    margin: 0;
-    width: 20%;
-    min-width: 768px;
+    width: 10%;
+    margin-top: 50px; 
+  
+    margin-bottom: 30px;
   }
 
   .product-details-smallimg {
@@ -1197,8 +1198,10 @@
   }
 
   .title {
+    width: 100%;
     margin-top: 50px; 
     min-width: 768px;
+    margin-bottom: 30px;
   }
 
   .title h3 {
