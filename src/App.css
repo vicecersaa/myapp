@@ -423,7 +423,6 @@
 
 .decor a {
   width: 20%;
-  
 }
 
 .decor img {
@@ -1296,9 +1295,14 @@
     min-width: 768px;
     
   }
+
+  .decor a {
+    width: 50%;
+  }
   
   .decor img {
-    width: 40%;
+    width: 100%;
+    
     padding: 10px;
   }
 

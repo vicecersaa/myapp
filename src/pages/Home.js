@@ -96,7 +96,9 @@ export const Home = () => {
 
       />
       <Inspiration 
-      
+      link1="/product"
+      link2="/product"
+      link3="/product"
       img1={Bedroom3}
       img2={Bedroom4}
       img3={Bedroom5}
