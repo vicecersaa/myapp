@@ -8,7 +8,9 @@ export const InTheBox = () => {
           <h1>In The Box?</h1>
         </div>
         <div className='myVideo'>
-          <video src={Video} muted loop autoPlay></video>
+          <video autoPlay loop muted>
+            <source src={Video} type="video/mp4" />
+          </video>
         </div>
       </div>
     )
