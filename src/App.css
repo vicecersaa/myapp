@@ -421,9 +421,15 @@
   margin-bottom: 10px;
 }
 
-.decor img {
+.decor a {
   width: 20%;
+  
+}
+
+.decor img {
+  width: 100%;
   display: block;
+  height: 250px;
 }
 
 .decor img:hover {

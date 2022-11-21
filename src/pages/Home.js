@@ -25,6 +25,7 @@ import Bedroom3 from '../img/bedroom4.jpg'
 import Bedroom4 from '../img/bedroom5.jpg'
 import Bedroom5 from '../img/gambar.jpg'
 
+
 export const Home = () => {
   return (
     <div className="home-section">
@@ -86,7 +87,9 @@ export const Home = () => {
       />
 
       <Inspiration 
-
+      link1="/product"
+      link2="/product"
+      link3="/product"
       img1={Bedroom}
       img2={Bedroom1}
       img3={Bedroom2}
